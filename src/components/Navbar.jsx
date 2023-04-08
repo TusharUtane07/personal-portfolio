@@ -7,16 +7,21 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   return (
-    <div className="font-poppins text-primary">
-      <div className="uppercase flex items-center justify-between mx-5 text-3xl h-16 border-2 border-white md:text-5xl md:mx-10">
-        tushar utane
-        <div className="">
-      <ThemeToggle/>
+    <>
+    <div className="font-poppins text-primary lg:hidden">
+      <div
+        className="uppercase flex items-center justify-between mx-5 text-2xl h-16  md:text-5xl 
+      md:mx-10 md:my-3 font-extrabold"
+      >
+        <div>tushar utane</div>
+        <div>
+          <ThemeToggle />
         </div>
         <div className="">
           <GiHamburgerMenu
+            // size={30}
             onClick={() => setNav(!nav)}
-            className="cursor-pointer"
+            className="cursor-pointer text-3xl md:text-5xl"
           />
         </div>
       </div>
@@ -29,20 +34,38 @@ const Navbar = () => {
             : "fixed top-0 left-[-100%] w-[300px] h-screen bg-white  text-black z-10 duration-300"
         }
       >
-        <div className="flex items-center justify-between h-16 mx-5 md:mx-10">
-          <div className="uppercase text-3xl text-black  md:text-5xl">Tushar utane</div>
-          <RxCross1 onClick={() => setNav(!nav)} size={30} className="text-3xl md:text-5xl" />
+        <div className="flex items-center justify-between h-16 mx-5 md:mx-10 md:my-3">
+          <div className="uppercase text-2xl text-black  md:text-5xl font-bold">
+            Tushar utane
+          </div>
+          <RxCross1
+            onClick={() => setNav(!nav)}
+            className="text-3xl md:text-5xl"
+          />
         </div>
-        <div className='flex flex-col text-center justify-center mt-10 space-y-5 text-2xl'>
+        <div className="flex flex-col text-center justify-center mt-10 space-y-5 text-2xl md:text-5xl md:space-y-14 md:mt-16">
           <div className="">Home</div>
           <div className="">About</div>
           <div className="">Projects</div>
           <div className="">Contact</div>
-          <div className="">
-          </div>
-          </div>
+          <div className=""></div>
+        </div>
       </div>
     </div>
+    {/* Desktop */}
+    <div className="font-poppins mt-3 hidden lg:flex items-center justify-between">
+        <div className="uppercase text-5xl font-bold ml-10">Tushar utane</div>
+      <div className="flex items-center space-x-8 justify-between">
+        <div className="text-3xl ">Home</div>
+        <div className="text-3xl ">About</div>
+        <div className="text-3xl ">Projects</div>
+        <div className="text-3xl ">Contact</div>
+        <div>
+          <ThemeToggle/>
+        </div>
+      </div>
+    </div>
+    </>
   );
 };
 
