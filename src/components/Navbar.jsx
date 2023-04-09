@@ -8,12 +8,12 @@ const Navbar = () => {
 
   return (
     <>
-    <div className="font-poppins text-primary lg:hidden">
+    <div className="font-poppins text-primary lg:hidden shadow-md">
       <div
-        className="uppercase flex items-center justify-between mx-5 text-2xl h-16  md:text-5xl 
-      md:mx-10 md:my-3 font-extrabold"
+        className=" flex items-center justify-between mx-5 text-2xl h-16  md:text-5xl 
+      md:mx-10 md:my-5 md:pb-2 font-extrabold"
       >
-        <div>tushar utane</div>
+        <div>Tushar utane</div>
         <div>
           <ThemeToggle />
         </div>
@@ -30,12 +30,12 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "fixed top-0 left-0 w-screen h-screen bg-white text-black  z-10 duration-300"
-            : "fixed top-0 left-[-100%] w-[300px] h-screen bg-white  text-black z-10 duration-300"
+            ? "fixed top-0 left-0 w-screen h-screen bg-white text-black  z-10 duration-700"
+            : "fixed top-0 left-[-100%] w-[300px] h-screen bg-white  text-black z-10 duration-700"
         }
       >
         <div className="flex items-center justify-between h-16 mx-5 md:mx-10 md:my-3">
-          <div className="uppercase text-2xl text-black  md:text-5xl font-bold">
+          <div className="uppercase text-2xl text-black  md:text-5xl font-bold ">
             Tushar utane
           </div>
           <RxCross1
@@ -43,7 +43,7 @@ const Navbar = () => {
             className="text-3xl md:text-5xl"
           />
         </div>
-        <div className="flex flex-col text-center justify-center mt-10 space-y-5 text-2xl md:text-5xl md:space-y-14 md:mt-16">
+        <div className="flex flex-col text-center justify-center mt-16 space-y-12 text-4xl md:text-5xl md:space-y-14 md:mt-16">
           <div className="">Home</div>
           <div className="">About</div>
           <div className="">Projects</div>
@@ -53,13 +53,13 @@ const Navbar = () => {
       </div>
     </div>
     {/* Desktop */}
-    <div className="font-poppins mt-3 hidden lg:flex items-center justify-between">
-        <div className="uppercase text-5xl font-bold ml-10">Tushar utane</div>
-      <div className="flex items-center space-x-8 justify-between">
-        <div className="text-3xl ">Home</div>
-        <div className="text-3xl ">About</div>
-        <div className="text-3xl ">Projects</div>
-        <div className="text-3xl ">Contact</div>
+    <div className="font-poppins mt-3 hidden lg:flex items-center justify-between shadow-md">
+        <div className=" text-5xl font-bold ml-5 xl:ml-8 tracking-widest xl:pb-3">Tushar utane</div>
+      <div className="flex items-center space-x-5 justify-between mr-5 xl:mr-8 xl:space-x-8 ">
+        <div className="text-2xl ">Home</div>
+        <div className="text-2xl ">About</div>
+        <div className="text-2xl ">Projects</div>
+        <div className="text-2xl ">Contact</div>
         <div>
           <ThemeToggle/>
         </div>

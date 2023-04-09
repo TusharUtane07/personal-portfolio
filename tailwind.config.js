@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        poppins: ['poppins', 'sans-serif']
+        poppins: ['poppins', 'sans-serif'],
+        pacifico: ['Pacifico', 'cursive']
       },
       backgroundColor: {
         primary: 'var(--color-bg-primary)',
