@@ -2,66 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-    @apply bg-primary text-primary
+:root {
+  @apply bg-primary text-primary;
 }
-.rounded-div{
-    @apply border border-secondary rounded-2xl shadow-xl bg-primary px-2 max-w-[1140px] w-full mx-auto
+.rounded-div {
+  @apply border border-secondary rounded-2xl shadow-xl bg-primary px-2 max-w-[1140px] w-full mx-auto;
 }
-.dark{
-    --color-bg-primary: #27283D;
-    --color-bg-secondary:#283141;
-    --color-text-primary:#dbdbdb;
-    --color-text-secondary:#e2e8f0;
-    --color-text-accent:#F4EEE0;
-    --color-bg-input:#4a5361;
-    --color-bg-button:#F4EEE0;
+.dark {
+  --color-bg-primary: #27283d;
+  --color-bg-secondary: #283141;
+  --color-text-primary: #dbdbdb;
+  --color-text-secondary: #e2e8f0;
+  --color-text-accent: #f4eee0;
+  --color-bg-input: #4a5361;
+  --color-bg-button: #f4eee0;
 }
-.light{
-    --color-bg-primary: #ffffff;
-    --color-bg-secondary:#edf2f7;
-    --color-text-primary:#2d3748;
-    --color-text-secondary:#4a5568;
-    --color-text-accent:#2b6cb0;
-    --color-bg-input:#edf2f7;
-    --color-bg-button:#2b6cb0;
+.light {
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #edf2f7;
+  --color-text-primary: #2d3748;
+  --color-text-secondary: #4a5568;
+  --color-text-accent: #2b6cb0;
+  --color-bg-input: #edf2f7;
+  --color-bg-button: #2b6cb0;
 }
 
-* {
-    scrollbar-width: thin;
-    scrollbar-color: #BA90C6 transparent;
-  }
-  
-  /* Chrome, Edge and Safari */
-  *::-webkit-scrollbar {
-    width: 12px;
-    width: 12px;
-  }
-  
-  *::-webkit-scrollbar-track {
-    /* border-radius: 5px; */
-    background-color: transparent;
-  }
-  
-  *::-webkit-scrollbar-thumb {
-    /* border-radius: 20px; */
-    background-color: #BA90C6;
-    border: 1px solid transparent;
-  }
-  
-  *::-webkit-scrollbar-thumb:hover {
-    background-color: #BA90C6;
-  }
-  
-  *::-webkit-scrollbar-thumb:active {
-    background-color: #BA90C6;
-  }
+::-webkit-scrollbar {
+  display: none;
+}
 
-
-
-
-
-
-
-
-
+html {
+  scroll-behavior: smooth;
+}
