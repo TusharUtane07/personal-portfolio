@@ -40,10 +40,10 @@ const Home = () => {
           href="https://www.linkedin.com/in/tushar-utane-492b00260/"
           target="_blank"
         >
-          <BsLinkedin />
+          <BsLinkedin className="hover:text-blue-500" />
         </a>
         <a href="https://github.com/CodeWithTusharUtane" target="_blank">
-          <BsGithub />
+          <BsGithub className="hover:text-red-500" />
         </a>
       </div>
 

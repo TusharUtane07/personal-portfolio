@@ -56,20 +56,22 @@ const Navbar = () => {
         </div>
       </div>
       {/* Desktop */}
-      <div className="font-poppins h-[70px] mt-3 hidden lg:flex items-center justify-between shadow-md">
-        <div className=" text-2xl font-bold ml-5 xl:ml-8 tracking-widest xl:pb-3">
-          Tushar.dev
-        </div>
-        <div className="flex items-center space-x-5 justify-between mr-5 xl:mr-8 xl:space-x-8 ">
-          <div className="text-2xl ">Home</div>
-          <div className="text-2xl ">
-            {" "}
-            <a href="#about"> About </a>
+      <div>
+        <div className="font-poppins h-[70px] mt-3 hidden lg:flex items-center justify-between shadow-md">
+          <div className=" text-2xl font-bold ml-5 xl:ml-8 tracking-widest xl:pb-3 ">
+            Tushar.dev
           </div>
-          <div className="text-2xl ">Projects</div>
-          <div className="text-2xl ">Contact</div>
-          <div>
-            <ThemeToggle />
+          <div className="flex items-center space-x-5 justify-between mr-5 xl:mr-8 xl:space-x-8 ">
+            <div className="text-2xl ">Home</div>
+            <div className="text-2xl ">
+              {" "}
+              <a href="#about"> About </a>
+            </div>
+            <div className="text-2xl ">Projects</div>
+            <div className="text-2xl ">Contact</div>
+            <div>
+              <ThemeToggle />
+            </div>
           </div>
         </div>
       </div>

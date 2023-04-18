@@ -1,16 +1,40 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
+import { AiOutlineArrowUp } from "react-icons/ai";
 
 const App = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setIsScrolled(true);
+    } else {
+      setIsScrolled(false);
+    }
+  };
+
   return (
-    <div>
+    <div className="relative">
       <Navbar />
       <Home />
       <div id="about">
         <About />
       </div>
+      {isScrolled && (
+        <button
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="fixed right-1 bottom-1 "
+        >
+          <AiOutlineArrowUp className="text-2xl lg:text-5xl text-white rounded-full  bg-[#27283d] dark:bg-white dark:text-[#27283d]" />
+        </button>
+      )}
     </div>
   );
 };
