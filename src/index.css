@@ -34,3 +34,14 @@
 html {
   scroll-behavior: smooth;
 }
+
+.amazing {
+  transform: translateY(0%);
+  transition: transform 10s ease-in-out 0s;
+  height: auto;
+}
+
+.amazing:hover {
+  transform: translateY(-84%);
+  transition: transform 10s ease-in-out 0s;
+}

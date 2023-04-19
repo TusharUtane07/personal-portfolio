@@ -42,13 +42,13 @@ const image = [
 
 const About = () => {
   return (
-    <div className="h-screen mx-5 font-poppins">
+    <div className="lg:pb-40 mx-5 font-poppins">
       <div>
-        <h1 className="text-3xl pt-2 font-bold m-auto font-poppins border-2 border-primary w-44  py-2  text-center">
+        <h1 className="text-3xl lg:text-8xl pt-2 font-bold m-auto  w-full py-2  text-center">
           About Me
         </h1>
       </div>
-      <div className="mt-10 lg:mt-20 font-semibold lg:flex lg:items-center lg:mx-60 gap-20">
+      <div className="mt-10 lg:mt-28 font-semibold lg:flex lg:items-center lg:mx-60 gap-20">
         <div className="hidden lg:flex lg:flex-wrap gap-5 animate__animated animate__fadeInLeftBig ">
           {image.map((item) => {
             return (

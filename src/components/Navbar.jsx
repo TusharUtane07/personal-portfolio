@@ -49,8 +49,12 @@ const Navbar = () => {
             <div className="" onClick={() => setNav(!nav)}>
               <a href="#about"> About </a>
             </div>
-            <div className="">Projects</div>
-            <div className="">Contact</div>
+            <div onClick={() => setNav(!nav)}>
+              <a href="#projects">Projects</a>
+            </div>
+            <div onClick={() => setNav(!nav)}>
+              <a href="#contact">Contact</a>
+            </div>
             <div className=""></div>
           </div>
         </div>
@@ -67,8 +71,12 @@ const Navbar = () => {
               {" "}
               <a href="#about"> About </a>
             </div>
-            <div className="text-2xl ">Projects</div>
-            <div className="text-2xl ">Contact</div>
+            <div className="text-2xl ">
+              <a href="#projects">Projects</a>
+            </div>
+            <div className="text-2xl ">
+              <a href="#contact">Contact</a>
+            </div>
             <div>
               <ThemeToggle />
             </div>
