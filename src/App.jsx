@@ -6,6 +6,9 @@ import { AiOutlineArrowUp } from "react-icons/ai";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const App = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -24,6 +27,18 @@ const App = () => {
 
   return (
     <div className="relative">
+      <ToastContainer
+        position="top-center"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      />
       <Navbar />
       <Home />
       <div id="about">

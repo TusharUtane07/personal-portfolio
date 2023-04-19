@@ -52,7 +52,7 @@ const About = () => {
         <div className="hidden lg:flex lg:flex-wrap gap-5 animate__animated animate__fadeInLeftBig ">
           {image.map((item) => {
             return (
-              <div className="">
+              <div className="" key={item.img}>
                 <img src={item.img} alt="" className="w-20 animate-bounce" />
               </div>
             );
