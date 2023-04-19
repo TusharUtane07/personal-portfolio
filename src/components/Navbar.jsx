@@ -68,7 +68,6 @@ const Navbar = () => {
           <div className="flex items-center space-x-5 justify-between mr-5 xl:mr-8 xl:space-x-8 ">
             <div className="text-2xl ">Home</div>
             <div className="text-2xl ">
-              {" "}
               <a href="#about"> About </a>
             </div>
             <div className="text-2xl ">

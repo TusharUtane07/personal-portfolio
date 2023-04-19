@@ -10,11 +10,13 @@ const ProjectItem = () => {
     <>
       <div className="pb-5 mx-1 mt-4 lg:flex xl:mx-60">
         <div className="p-1 lg:ml-5">
-          <img
-            src={p1}
-            alt=""
-            className="w-[300px] md:w-[500px] mt-4 m-auto rounded-md lg:w-[1700px] hover:cursor-pointer"
-          />
+          <a href="https://cornflix2-0.vercel.app/">
+            <img
+              src={p1}
+              alt=""
+              className="w-[300px] md:w-[500px] mt-4 m-auto rounded-md lg:w-[1700px] hover:cursor-pointer"
+            />
+          </a>
         </div>
         <div className="ml-5">
           <p className="text-3xl text-center py-3">Cornflix</p>
@@ -29,22 +31,28 @@ const ProjectItem = () => {
             <p className="pt-4">Scss</p>
           </div>
           <div className="flex gap-4 ml-4 hover:cursor-pointer">
-            <p className="pt-4 flex items-center gap-2 text-xl">
-              Code <AiFillGithub />
-            </p>
-            <p className="pt-4 flex text-xl items-center gap-2">
-              Link <BiLinkExternal />
-            </p>
+            <a href="https://github.com/CodeWithTusharUtane/cornflix2.0">
+              <p className="pt-4 flex items-center gap-2 text-xl">
+                Code <AiFillGithub />
+              </p>
+            </a>
+            <a href="https://cornflix2-0.vercel.app/">
+              <p className="pt-4 flex text-xl items-center gap-2">
+                Link <BiLinkExternal />
+              </p>
+            </a>
           </div>
         </div>
       </div>
       <div className="pb-5 mx-1 mt-4 lg:flex xl:mx-60">
         <div className="p-1 lg:ml-5">
-          <img
-            src={p2}
-            alt=""
-            className="w-[300px] md:w-[500px] mt-4 m-auto rounded-md lg:w-[1700px] hover:cursor-pointer"
-          />
+          <a href="https://eshoppinghub.vercel.app/">
+            <img
+              src={p2}
+              alt=""
+              className="w-[300px] md:w-[500px] mt-4 m-auto rounded-md lg:w-[1700px] hover:cursor-pointer"
+            />
+          </a>
         </div>
         <div className="ml-5">
           <p className="text-3xl text-center py-3">Eshopping-Hub</p>
@@ -59,22 +67,28 @@ const ProjectItem = () => {
             <p className="pt-4">Scss</p>
           </div>
           <div className="flex gap-4 ml-4 hover:cursor-pointer">
-            <p className="pt-4 flex items-center gap-2 text-xl">
-              Code <AiFillGithub />
-            </p>
-            <p className="pt-4 flex text-xl items-center gap-2">
-              Link <BiLinkExternal />
-            </p>
+            <a href="https://github.com/CodeWithTusharUtane/Ecommerce-app">
+              <p className="pt-4 flex items-center gap-2 text-xl">
+                Code <AiFillGithub />
+              </p>
+            </a>
+            <a href="https://eshoppinghub.vercel.app/">
+              <p className="pt-4 flex text-xl items-center gap-2">
+                Link <BiLinkExternal />
+              </p>
+            </a>
           </div>
         </div>
       </div>
       <div className="pb-5 mx-1 mt-4 lg:flex xl:mx-60">
         <div className="p-1 lg:ml-5">
-          <img
-            src={p3}
-            alt=""
-            className="w-[300px] md:w-[500px] mt-4 m-auto rounded-md lg:w-[1700px] hover:cursor-pointer"
-          />
+          <a href="https://cryptobase-rho.vercel.app/">
+            <img
+              src={p3}
+              alt=""
+              className="w-[300px] md:w-[500px] mt-4 m-auto rounded-md lg:w-[1700px] hover:cursor-pointer"
+            />
+          </a>
         </div>
         <div className="ml-5">
           <p className="text-3xl text-center py-3">Cryptobase</p>
@@ -86,15 +100,22 @@ const ProjectItem = () => {
           </p>
           <div className="flex gap-4 text-2xl ml-4">
             <p className="pt-4"> React</p>
-            <p className="pt-4">Scss</p>
+            <p className="pt-4">Tailwindcss</p>
           </div>
           <div className="flex gap-4 ml-4 hover:cursor-pointer">
-            <p className="pt-4 flex items-center gap-2 text-xl">
-              Code <AiFillGithub />
-            </p>
-            <p className="pt-4 flex text-xl items-center gap-2">
-              Link <BiLinkExternal />
-            </p>
+            <a
+              target="_blank"
+              href="https://github.com/CodeWithTusharUtane/cryptobase"
+            >
+              <p className="pt-4 flex items-center gap-2 text-xl">
+                Code <AiFillGithub />
+              </p>
+            </a>
+            <a href="https://cryptobase-rho.vercel.app/" target="_blank">
+              <p className="pt-4 flex text-xl items-center gap-2">
+                Link <BiLinkExternal />
+              </p>
+            </a>
           </div>
         </div>
       </div>
