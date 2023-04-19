@@ -21,10 +21,10 @@ const ProjectItem = () => {
         <div className="ml-5">
           <p className="text-3xl text-center py-3">Cornflix</p>
           <p className="mx-4">
-            Cornflix Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Amet ex exercitationem quas obcaecati facilis, quo adipisci nihil
-            recusandae dicta corporis accusantium natus ipsum nam ut expedita
-            tempora. Sequi, nesciunt illo.
+            Cornflix is a platform where you can find movies & tv shows as your
+            preference. In these project I implemented{" "}
+            <b> infinite scroll, lazy loading, and search </b>features for
+            providing smooth user experience.
           </p>
           <div className="flex gap-4 text-2xl ml-4">
             <p className="pt-4"> React</p>
@@ -50,21 +50,22 @@ const ProjectItem = () => {
             <img
               src={p2}
               alt=""
-              className="w-[300px] md:w-[500px] mt-4 m-auto rounded-md lg:w-[1700px] hover:cursor-pointer"
+              className="w-[300px] md:w-[500px] mt-4 m-auto rounded-md lg:w-[2500px] hover:cursor-pointer"
             />
           </a>
         </div>
         <div className="ml-5">
           <p className="text-3xl text-center py-3">Eshopping-Hub</p>
           <p className="mx-4">
-            Cornflix Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Amet ex exercitationem quas obcaecati facilis, quo adipisci nihil
-            recusandae dicta corporis accusantium natus ipsum nam ut expedita
-            tempora. Sequi, nesciunt illo.
+            Eshopping Hub is ecommerce platform where user can view product add
+            them to cart users are authenticated with firebase and admin can
+            add, remove & edit products, users specific data is stored these are
+            implemented using Firebase Firestore database and Firebase storage.
           </p>
           <div className="flex gap-4 text-2xl ml-4">
-            <p className="pt-4"> React</p>
-            <p className="pt-4">Scss</p>
+            <p className="pt-4"> React & Redux</p>
+            <p className="pt-4">Tailwind Css</p>
+            <p className="pt-4">Firebase</p>
           </div>
           <div className="flex gap-4 ml-4 hover:cursor-pointer">
             <a href="https://github.com/CodeWithTusharUtane/Ecommerce-app">
@@ -86,17 +87,16 @@ const ProjectItem = () => {
             <img
               src={p3}
               alt=""
-              className="w-[300px] md:w-[500px] mt-4 m-auto rounded-md lg:w-[1700px] hover:cursor-pointer"
+              className="w-[300px] md:w-[500px] mt-4 m-auto rounded-md lg:w-[1300px] hover:cursor-pointer"
             />
           </a>
         </div>
         <div className="ml-5">
           <p className="text-3xl text-center py-3">Cryptobase</p>
           <p className="mx-4">
-            Cornflix Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Amet ex exercitationem quas obcaecati facilis, quo adipisci nihil
-            recusandae dicta corporis accusantium natus ipsum nam ut expedita
-            tempora. Sequi, nesciunt illo.
+            Cryptobase is a cryto currency tracking app where you can find any
+            currencies detailed analysis and the information fetched from
+            Coingecko api.
           </p>
           <div className="flex gap-4 text-2xl ml-4">
             <p className="pt-4"> React</p>
