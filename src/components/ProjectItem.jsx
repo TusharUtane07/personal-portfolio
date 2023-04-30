@@ -119,6 +119,44 @@ const ProjectItem = () => {
           </div>
         </div>
       </div>
+      <div className="pb-5 mx-1 mt-4 lg:flex xl:mx-60">
+        <div className="p-1 lg:ml-5">
+          <a href="https://cryptobase-rho.vercel.app/">
+            <img
+              src={p3}
+              alt=""
+              className="w-[300px] md:w-[500px] mt-4 m-auto rounded-md lg:w-[1300px] hover:cursor-pointer"
+            />
+          </a>
+        </div>
+        <div className="ml-5">
+          <p className="text-3xl text-center py-3">Note-taking app</p>
+          <p className="mx-4">
+            Cryptobase is a cryto currency tracking app where you can find any
+            currencies detailed analysis and the information fetched from
+            Coingecko api.
+          </p>
+          <div className="flex gap-4 text-2xl ml-4">
+            <p className="pt-4"> React</p>
+            <p className="pt-4">Tailwindcss</p>
+          </div>
+          <div className="flex gap-4 ml-4 hover:cursor-pointer">
+            <a
+              target="_blank"
+              href="https://github.com/CodeWithTusharUtane/cryptobase"
+            >
+              <p className="pt-4 flex items-center gap-2 text-xl">
+                Code <AiFillGithub />
+              </p>
+            </a>
+            <a href="https://cryptobase-rho.vercel.app/" target="_blank">
+              <p className="pt-4 flex text-xl items-center gap-2">
+                Link <BiLinkExternal />
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

@@ -6,6 +6,13 @@ import "animate.css";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  function handleDownload() {
+    const file = new Blob(["Resume content"], { type: "application/pdf" });
+    const fileURL = URL.createObjectURL(file);
+    window.open(
+      "https://drive.google.com/file/d/1NFi23I1auzgar2udNYbba3UJW7JbwaBr/view?usp=sharing"
+    );
+  }
 
   return (
     <>
@@ -75,6 +82,11 @@ const Navbar = () => {
             </div>
             <div className="text-2xl ">
               <a href="#contact">Contact</a>
+            </div>
+            <div className="text-2xl">
+              <button onClick={handleDownload} download="Resume.pdf">
+                Resume
+              </button>
             </div>
             <div>
               <ThemeToggle />

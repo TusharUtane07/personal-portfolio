@@ -42,7 +42,7 @@ const Home = () => {
         >
           <BsLinkedin className="hover:text-blue-500" />
         </a>
-        <a href="https://github.com/CodeWithTusharUtane" target="_blank">
+        <a href="https://github.com/tusharutane07" target="_blank">
           <BsGithub className="hover:text-red-500" />
         </a>
       </div>
