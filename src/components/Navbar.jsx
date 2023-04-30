@@ -60,6 +60,11 @@ const Navbar = () => {
               <a href="#projects">Projects</a>
             </div>
             <div onClick={() => setNav(!nav)}>
+              <button onClick={handleDownload} download="Resume.pdf">
+                Resume
+              </button>
+            </div>
+            <div onClick={() => setNav(!nav)}>
               <a href="#contact">Contact</a>
             </div>
             <div className=""></div>
