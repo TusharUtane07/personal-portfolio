@@ -3,9 +3,12 @@ import w1 from "../assests/w1.png";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import Images from "./Images";
 import "animate.css";
+import Navbar from "./Navbar";
 
 const Home = () => {
   return (
+    <>    
+    <Navbar/>
     <div className="font-poppins lg:ml-[200px] pb-20">
       <div className="lg:flex lg:items-center  lg:mx-5 lg:space-x-10 animate__animated animate__fadeInLeftBig">
         <div className="">
@@ -56,6 +59,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

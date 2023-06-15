@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="font-poppins text-primary lg:hidden shadow-md ">
+      <div className="font-poppins text-primary lg:hidden shadow-md">
         <div
           className=" flex items-center justify-between mx-5 text-2xl h-16  md:text-5xl 
       md:mx-10 md:my-5 md:pb-2 font-extrabold"

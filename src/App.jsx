@@ -39,7 +39,7 @@ const App = () => {
         pauseOnHover
         theme="colored"
       />
-      <Navbar />
+      {/* <Navbar /> */}
       <Home />
       <div id="about">
         <About />

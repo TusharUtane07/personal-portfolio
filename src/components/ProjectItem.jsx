@@ -4,13 +4,14 @@ import { BiLinkExternal } from "react-icons/bi";
 import p1 from "../assests/1.png";
 import p2 from "../assests/2.png";
 import p3 from "../assests/3.png";
+import p4 from "../assests/p4.png";
 
 const ProjectItem = () => {
   return (
     <>
       <div className="pb-5 mx-1 mt-4 lg:flex xl:mx-60">
         <div className="p-1 lg:ml-5">
-          <a href="https://cornflix2-0.vercel.app/">
+          <a href="https://cornflix2-0.vercel.app/" target="_blank">
             <img
               src={p1}
               alt=""
@@ -31,12 +32,15 @@ const ProjectItem = () => {
             <p className="pt-4">Scss</p>
           </div>
           <div className="flex gap-4 ml-4 hover:cursor-pointer">
-            <a href="https://github.com/CodeWithTusharUtane/cornflix2.0">
+            <a
+              href="https://github.com/CodeWithTusharUtane/cornflix2.0"
+              target="_blank"
+            >
               <p className="pt-4 flex items-center gap-2 text-xl">
                 Code <AiFillGithub />
               </p>
             </a>
-            <a href="https://cornflix2-0.vercel.app/">
+            <a href="https://cornflix2-0.vercel.app/" target="_blank">
               <p className="pt-4 flex text-xl items-center gap-2">
                 Link <BiLinkExternal />
               </p>
@@ -46,7 +50,7 @@ const ProjectItem = () => {
       </div>
       <div className="pb-5 mx-1 mt-4 lg:flex xl:mx-60">
         <div className="p-1 lg:ml-5">
-          <a href="https://eshoppinghub.vercel.app/">
+          <a href="https://eshoppinghub.vercel.app/" target="_blank">
             <img
               src={p2}
               alt=""
@@ -68,12 +72,15 @@ const ProjectItem = () => {
             <p className="pt-4">Firebase</p>
           </div>
           <div className="flex gap-4 ml-4 hover:cursor-pointer">
-            <a href="https://github.com/CodeWithTusharUtane/Ecommerce-app">
+            <a
+              href="https://github.com/CodeWithTusharUtane/Ecommerce-app"
+              target="_blank"
+            >
               <p className="pt-4 flex items-center gap-2 text-xl">
                 Code <AiFillGithub />
               </p>
             </a>
-            <a href="https://eshoppinghub.vercel.app/">
+            <a href="https://eshoppinghub.vercel.app/" target="_blank">
               <p className="pt-4 flex text-xl items-center gap-2">
                 Link <BiLinkExternal />
               </p>
@@ -83,7 +90,7 @@ const ProjectItem = () => {
       </div>
       <div className="pb-5 mx-1 mt-4 lg:flex xl:mx-60">
         <div className="p-1 lg:ml-5">
-          <a href="https://cryptobase-rho.vercel.app/">
+          <a href="https://cryptobase-rho.vercel.app/" target="_blank">
             <img
               src={p3}
               alt=""
@@ -121,9 +128,9 @@ const ProjectItem = () => {
       </div>
       <div className="pb-5 mx-1 mt-4 lg:flex xl:mx-60">
         <div className="p-1 lg:ml-5">
-          <a href="https://cryptobase-rho.vercel.app/">
+          <a href="https://notemaking-app.vercel.app" target="_blank">
             <img
-              src={p3}
+              src={p4}
               alt=""
               className="w-[300px] md:w-[500px] mt-4 m-auto rounded-md lg:w-[1300px] hover:cursor-pointer"
             />
@@ -132,9 +139,9 @@ const ProjectItem = () => {
         <div className="ml-5">
           <p className="text-3xl text-center py-3">Note-taking app</p>
           <p className="mx-4">
-            Cryptobase is a cryto currency tracking app where you can find any
-            currencies detailed analysis and the information fetched from
-            Coingecko api.
+            NoteMaking app is realtime note making app where you can write your
+            notes and saved it directly to firestore database. And easily
+            accesible.
           </p>
           <div className="flex gap-4 text-2xl ml-4">
             <p className="pt-4"> React</p>
@@ -143,13 +150,13 @@ const ProjectItem = () => {
           <div className="flex gap-4 ml-4 hover:cursor-pointer">
             <a
               target="_blank"
-              href="https://github.com/CodeWithTusharUtane/cryptobase"
+              href="https://github.com/TusharUtane07/notemaking-app"
             >
               <p className="pt-4 flex items-center gap-2 text-xl">
                 Code <AiFillGithub />
               </p>
             </a>
-            <a href="https://cryptobase-rho.vercel.app/" target="_blank">
+            <a href="https://notemaking-app.vercel.app" target="_blank">
               <p className="pt-4 flex text-xl items-center gap-2">
                 Link <BiLinkExternal />
               </p>
