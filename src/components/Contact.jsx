@@ -110,19 +110,31 @@ const Contact = () => {
 							<ul>
 								<li className="flex items-center text-xl  gap-6">
 									<BsGithub />
-									<span>Github</span>
+									<a href="https://github.com/TusharUtane07" target="_blank">
+										Github
+									</a>
 								</li>
 								<li className="flex items-center text-xl mt-3  gap-6">
 									<BsLinkedin />
-									<span>LinkedIn</span>
+									<a
+										href="https://www.linkedin.com/in/tushar-utane-492b00260/"
+										target="_blank">
+										LinkedIn
+									</a>
 								</li>
 								<li className="flex items-center text-xl  mt-3  gap-6">
 									<BsTwitter />
-									<span>Twitter</span>
+									<a href="https://twitter.com/tusharutane2" target="_blank">
+										Twitter
+									</a>
 								</li>
 								<li className="flex items-center text-xl  mt-3   gap-6">
 									<BsInstagram />
-									<span>Instagram</span>
+									<a
+										href="https://www.instagram.com/tushar_utane/"
+										target="_blank">
+										Instagram
+									</a>
 								</li>
 							</ul>
 						</div>
