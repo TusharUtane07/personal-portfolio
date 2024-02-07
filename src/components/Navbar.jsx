@@ -10,7 +10,7 @@ const Navbar = () => {
 		const file = new Blob(["Resume content"], { type: "application/pdf" });
 		const fileURL = URL.createObjectURL(file);
 		window.open(
-			"https://drive.google.com/file/d/1NFi23I1auzgar2udNYbba3UJW7JbwaBr/view?usp=sharing"
+			"https://drive.google.com/file/d/1rjFVO7WdUol3vu68P2nOQErTbq0-Ep4U/view?usp=drive_link"
 		);
 	}
 
