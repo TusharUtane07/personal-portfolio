@@ -39,7 +39,7 @@ const Projects = () => {
 			<div className="mt-10 mx-5 grid grid-cols-1 md:grid-cols-2 my-5 lg:mx-32 ">
 				{projects.map((item) => {
 					return (
-						<div className="border-2 border-black p-2 my-5 md:mx-5">
+						<div className=" p-2 my-5 md:mx-5">
 							<img src={item.source} alt="" />
 							<div className="text-center">
 								<button className="mx-5 bg-secondary hover:cursor-pointer mt-3 px-5 py-1 rounded-sm">
